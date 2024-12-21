@@ -57,6 +57,11 @@ padding: 10px;
     cursor: pointer;
     border-radius: 40px;
 }
+.row button:hover{
+    position: relative;
+    border: 1px solid black;
+    padding: 15px 50px;
+}
 ul li{
     list-style: none;
     font-size: 17px;
@@ -98,6 +103,9 @@ ul li button{
     border-radius: 4px;
     cursor:cell;
    
+}
+ul li button:hover{
+    border: 1px solid black;
 }
 ul li span{
     position: absolute;
