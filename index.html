@@ -11,8 +11,8 @@
         <div class="todo-app">
             <h2>To-Do List </h2>
             <div class="row">
-                <input type="text"  id="input-box" placeholder="Add your task">
-                <button onclick="AddTask()">ADD</button>
+                <input type="text"  id="input-box" placeholder="Add your task" onkeydown="checkEnter(event)">
+                <button id="add" onclick="AddTask()">ADD</button>
             </div>
             <ul id="List-container">
                 <!-- <li class="checked">Task 1</li>
